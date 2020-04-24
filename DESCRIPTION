@@ -1,0 +1,20 @@
+Package: makeTestGreatAgain
+Type: Package
+Title: Robust statistical tests
+Version: 0.1.0
+Authors@R: c(
+	person("Vincent", "Runge", email = "vincent.runge@univ-evry.fr", role = c("aut", "cre")),
+	person("Mahamadi", "Nikiema", role = c("aut")))
+Maintainer: Vincent Runge <vincent.runge@univ-evry.fr>
+Description: We propose some alternative tests routinely used by statisticians. Our goal is to build tests that are more robust to model misspecification (for example a normality hypothesis) or better calibrated in asymptotic setting. We provide complete simulation studies to compare the different possible alternatives for each testing problem. We give references to the literature as we do not pretend to develop or invent new tools.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 0.12.18)
+SystemRequirements: C++11
+DevPackage: vrunge/makeTestGreatAgain
+LinkingTo: Rcpp
+RoxygenNote: 6.1.1
+Suggests: knitr, testthat
+VignetteBuilder: knitr
+Depends: R (>= 2.10)
